@@ -1,0 +1,117 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Left Page */
+.left-page {
+  background-color: #007bff;
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.welcome-text h2 {
+  margin-bottom: 10px;
+}
+
+.welcome-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Right Page */
+.right-page {
+  width: 50%;
+  background: #fff;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.welcome-msg {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn {
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #333;
+}
+
+.google-btn {
+  padding: 12px;
+  background: white;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  background: #f4f4f4;
+}
+
+.forgot-link {
+  font-size: 13px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
